@@ -1,0 +1,11 @@
+
+@font-face {
+    font-family: 'MinecrafterAlt';
+    src: url('fonts/MinecrafterAlt.ttf');
+    font-weight: normal;
+}
+
+h1 {
+    font-family: 'MinecrafterAlt', sans-serif;
+    font-size: 2em;
+}
