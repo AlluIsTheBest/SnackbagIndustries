@@ -1,11 +1,82 @@
+            .slideshow img {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                opacity: 0;
+                animation: fade 20s infinite;
+            }
 
-@font-face {
-    font-family: 'MinecrafterAlt';
-    src: url('fonts/MinecrafterAlt.ttf');
-    font-weight: normal;
-}
+            button {
+                background-color: chocolate;
+                font-family: 'Press Start 2P';
+                color: white;
+                font-size: large;
+                padding: 20px 80px;
+                border-radius: 999px;
+                border-color: transparent;
+                position: relative;
+                
+            }
 
-h1 {
-    font-family: 'MinecrafterAlt', sans-serif;
-    font-size: 2em;
-}
+            button:hover {
+                animation: glow 1s;
+                text-shadow: 0 0 20px white;
+            }
+
+            iframe {
+                text-align: center;
+                position: relative;
+                margin-top: 200px;
+            }
+
+
+
+
+            img:nth-child(1) { animation-delay: 0s; }
+            img:nth-child(2) { animation-delay: 10s; }
+
+
+            @keyframes fade {
+                0% { opacity: 0; }
+                33% { opacity: 1; }
+                66% { opacity: 0; }
+                100% { opacity: 0; }
+            }
+
+            @keyframes glow {
+                0% {text-shadow: 0 0 0px white;}
+                100% {text-shadow: 0 0 20px white;}
+            }
+
+            .companies {
+                margin-top: 50%;
+                position: absolute;
+                width: 100px;
+                gap: 20px;
+
+            }
+
+
+
+            .businessbox {
+                align-items: flex-start;
+                display: flex;
+                gap: 20px;
+                font-family: 'Press Start 2P';
+                color: white;
+                flex: 1;
+                width: 100%;
+            }
+
+
+
+            .businessbox img {
+                
+                max-width: 1000px;
+                max-height: 400px;
+            }
+
+            .texdiv {
+                flex-direction: column;
+                flex: 1;
+            }
