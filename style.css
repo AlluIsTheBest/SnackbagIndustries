@@ -80,3 +80,10 @@
                 flex-direction: column;
                 flex: 1;
             }
+            
+            body {
+                height: auto;
+                width: auto;
+                margin: 0;
+                padding: 0;
+            }
