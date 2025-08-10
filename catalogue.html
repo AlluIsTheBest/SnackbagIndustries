@@ -14,6 +14,9 @@
         <h1 id="title"></h1>
         
         <p id="desc"></p>
+        <p id="import"></p>
+        <p id="export"></p>
+        <p id="type"></p>
         <p id="coordinatos"></p>
         <p id="owner"></p>
 
@@ -29,6 +32,9 @@
            document.getElementById("desc").innerHTML = processed["description"]
            document.getElementById("owner").innerHTML = processed["minecraft"] + ", AKA:" + processed["discord"]
            document.getElementById("coordinatos").innerHTML = "coordinates: " + processed["coordinates"]
+           document.getElementById("import").innerHTML = "imports: " + processed["import"]
+           document.getElementById("export").innerHTML = "exports: " + processed["export"]
+           document.getElementById("type").innerHTML = "type of business: " + processed["businesstype"]
            
 
 
