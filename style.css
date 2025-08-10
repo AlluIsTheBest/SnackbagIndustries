@@ -11,10 +11,11 @@
                 font-family: 'Press Start 2P';
                 color: white;
                 font-size: large;
-                padding: 20px 80px;
+                padding: 20px;
                 border-radius: 999px;
                 border-color: transparent;
                 position: relative;
+                width: auto;
                 
             }
 
@@ -86,4 +87,64 @@
                 width: auto;
                 margin: 0;
                 padding: 0;
+                font-family: 'Press Start 2P';
             }
+
+            form {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100vh;
+                font-family: 'Press Start 2P';
+                color: white;
+                box-shadow: 0 0 15px rgba(0,0,0,0.2);
+                flex-direction: column;
+                gap: 20px;
+                
+            }
+
+            form input {
+                border-radius: 999px;
+                font-size: x-large;
+                border: transparent;
+
+                
+            }
+
+            form label {
+                border: transparent;
+            }
+
+            .gradround {
+                background: url('MaybeRiverant.jpg');
+                background-size: 200% 200%;
+                animation: gradient 20s ease infinite;
+                text-align: center;
+            }
+
+            .transparent {
+                background: transparent;
+            }
+
+            .catalogue {
+                font-family: 'Press Start 2P';
+                text-align: center;
+                position: relative;
+                color: white;
+                text-shadow: 0 0 20px white;
+                background: black;
+                background-size: 100% 100%;
+            }
+
+
+
+
+
+            @keyframes gradient {
+                0% {background-position: 0% 0%;}
+                25% {background-position: 0% 50%;}
+                50% {background-position: 50% 50%;}
+                75% {background-position: 50% 0%;}
+                100% {background-position: 0% 0%;}
+            }
+

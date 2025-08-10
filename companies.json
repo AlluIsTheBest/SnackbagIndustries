@@ -1,15 +1,14 @@
 [
-
-    [
-        [100,100],
-        "Fintrain",
-        "Transportation",
-        "Train tracks",
-        "Train stations",
-        true,
-        "Riverant.png",
-        "Ever wanted to get impregnated from one wuick purchase? well come visit us for the ultimate experience!"
-
-    ]
+    {
+        "name": "Name pending",
+        "picture": "screenie.jpg",
+        "coordinates": [-200, -2700],
+        "description": "shakalaka bum bum bla bla bla whaaaaaaaaaaaaaaaaaa wheeeeeeeeeeeeeeeeeeeeeeeeee whooo hooo",
+        "discord": "fb underswap",
+        "minecraft": "astolfouwu",
+        "import": "none",
+        "export": "train tracks",
+        "businesstype": "transportation"
+    }
 ]
 

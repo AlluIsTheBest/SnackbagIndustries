@@ -13,20 +13,33 @@ fetch("companies.json")
             newimg = document.createElement("img")
             newtext = document.createElement("p")
             newelement.classList.add("businessbox")
-            newtitle = document.createElement("h2")
+            newtitle = document.createElement("h1")
+            newownertitle = document.createElement("h2")
             texdiv = document.createElement("div")
             texdiv.classList.add("textdiv")
+            newbtn = document.createElement("button")
+            newbtn.classList.add("transparent")
+
+            newbtn.addEventListener("click", () =>{
+                localStorage.setItem("current", JSON.stringify(element))
+                window.location.href = "catalogue.html"
+            });
             
             
 
-            newimg.src = element[6]
+            newimg.src = element["picture"]
             areaaa.appendChild(newelement)
-            newelement.appendChild(newimg)
+            newelement.appendChild(newbtn)
+            newbtn.appendChild(newimg)
             texdiv.appendChild(newtitle)
+            texdiv.appendChild(newownertitle)
             texdiv.appendChild(newtext)
             newelement.appendChild(texdiv)
-            newtitle.innerHTML = element[1] + "   " + element[0]
-            newtext.innerHTML = element[7]
+            newtitle.innerHTML = element["name"]
+            newownertitle.innerHTML = element["minecraft"]
+            newtext.innerHTML = element["description"]
+
+
 
 
         });
