@@ -1,13 +1,13 @@
 [
     {
-        "name": "Name pending",
+        "name": "arcane railworks co",
         "picture": "screenie.jpg",
         "coordinates": [-200, -2700],
-        "description": "shakalaka bum bum bla bla bla whaaaaaaaaaaaaaaaaaa wheeeeeeeeeeeeeeeeeeeeeeeeee whooo hooo",
+        "description": "building tracks for heavy trains and long voyages",
         "discord": "fb underswap",
         "minecraft": "astolfouwu",
         "import": "none",
-        "export": "train tracks",
+        "export": "construction of rails",
         "businesstype": "transportation",
         "locpic": ""
 
@@ -25,4 +25,5 @@
         "locpic": "finlocation.png"
     }
 ]
+
 
