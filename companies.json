@@ -8,7 +8,21 @@
         "minecraft": "astolfouwu",
         "import": "none",
         "export": "train tracks",
-        "businesstype": "transportation"
+        "businesstype": "transportation",
+        "locpic": ""
+
+    },
+    {
+        "name": "Southern from here",
+        "picture": "loader.gif",
+        "coordinates": [-2459, 3559],
+        "description": "This business builds a straight or not railroad that only goes south from fin island",
+        "discord": "freaky juustoleipa",
+        "minecraft": "menihermoihin",
+        "import": "none",
+        "export": "rail road",
+        "businesstype": "transportation",
+        "locpic": "finlocation.png"
     }
 ]
 

@@ -17,8 +17,10 @@
         <p id="import"></p>
         <p id="export"></p>
         <p id="type"></p>
-        <p id="coordinatos"></p>
         <p id="owner"></p>
+        <p id="coordinatos"></p>
+        <img id="locpic">
+        
 
         <script>
            const current = localStorage.getItem("current") ;
@@ -35,6 +37,7 @@
            document.getElementById("import").innerHTML = "imports: " + processed["import"]
            document.getElementById("export").innerHTML = "exports: " + processed["export"]
            document.getElementById("type").innerHTML = "type of business: " + processed["businesstype"]
+           document.getElementById("locpic").src = "locations/" + processed["locpic"]
            
 
 
