@@ -1,29 +1,30 @@
 [
     {
-        "name": "arcane railworks co",
+        "name": "arcane railworks CO",
         "picture": "screenie.jpg",
         "coordinates": [-200, -2700],
         "description": "building tracks for heavy trains and long voyages",
         "discord": "fb underswap",
         "minecraft": "astolfouwu",
         "import": "none",
-        "export": "construction of rails",
+        "export": "train tracks",
         "businesstype": "transportation",
-        "locpic": ""
+        "locpic": "",
+        "chain": "arciron industries"
 
     },
     {
-        "name": "Southern from here",
+        "name": "going south CO",
         "picture": "loader.gif",
         "coordinates": [-2459, 3559],
-        "description": "This business builds a straight or not railroad that only goes south from fin island",
+        "description": "a railroad. Constantly built. Only goes south and back. Until the end.",
         "discord": "freaky juustoleipa",
         "minecraft": "menihermoihin",
         "import": "none",
         "export": "rail road",
         "businesstype": "transportation",
-        "locpic": "finlocation.png"
+        "locpic": "finlocation.png",
+        "chain": "findustries"
     }
 ]
-
 
