@@ -25,6 +25,20 @@
         "businesstype": "transportation",
         "locpic": "finlocation.png",
         "chain": "findustries"
+    },
+    {
+        "name": "K.P industries",
+        "picture": "Kit.jpeg",
+        "coordinates": "Kit mountain located in old Krunkeria",
+        "description": "The parent Company of the S1-2 Chocolate Company and owner of other Kit owned businesses ",
+        "discord": "Kitsuneguara",
+        "minecraft": "Kitsuneguara",
+        "import": "none",
+        "export": "none",
+        "businesstype": "everything?",
+        "locpic": "",
+        "chain": "K.P industries"
+
     }
 ]
 
