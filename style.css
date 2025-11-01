@@ -17,7 +17,7 @@
                 position: relative;
                 width: auto;
                 text-decoration: none;
-                transition: ease-in;
+                transition: ease-in-out;
                 animation: glow;
                 
             }
