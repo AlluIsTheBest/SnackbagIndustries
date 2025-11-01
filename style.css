@@ -17,12 +17,9 @@
                 position: relative;
                 width: auto;
                 text-decoration: none;
+                transition: ease-in;
+                animation: glow;
                 
-            }
-
-            button:hover {
-                animation: glow 1s;
-                text-shadow: 0 0 20px white;
             }
 
             iframe {
