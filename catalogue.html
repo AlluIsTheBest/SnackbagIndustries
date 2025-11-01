@@ -41,7 +41,7 @@
            document.getElementById("import").innerHTML = "imports: " + processed["import"]
            document.getElementById("export").innerHTML = "exports: " + processed["export"]
            document.getElementById("type").innerHTML = "type of business: " + processed["businesstype"]
-           document.getElementById("locpic").src = "locations/" + processed["locpic"];
+           document.getElementById("locpic").src = processed["locpic"];
            if (processed["chain"] != null) {
                 document.getElementById("chain").innerHTML = "is part of chain: " + processed["chain"]
            }
