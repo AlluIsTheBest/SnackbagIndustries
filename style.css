@@ -16,6 +16,8 @@
                 border-color: transparent;
                 position: relative;
                 width: auto;
+                display: flex;
+                justify-content: space-between;
                 
             }
 
