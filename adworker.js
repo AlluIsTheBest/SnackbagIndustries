@@ -1,7 +1,10 @@
-fetch("ads").forEach(element => {
-    let array = [];
-    array.push(element)
-    console.log(element)
+let array = [];
+let folder = fetch("ads");
 
-    
-});
+folder.forEach(addad);
+
+
+function addad(element){
+    array.push(element);
+    console.log(array)
+}
