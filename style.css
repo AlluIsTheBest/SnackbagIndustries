@@ -2,6 +2,7 @@
                 position: absolute;
                 width: 100%;
                 height: auto;
+                max-height: ;
                 opacity: 0;
                 animation: fade 20s infinite;
             }
@@ -32,6 +33,9 @@
 
             img:nth-child(1) { animation-delay: 0s; }
             img:nth-child(2) { animation-delay: 10s; }
+            img:nth-child(3) { animation-delay: 20s; }
+            img:nth-child(4) { animation-delay: 30s; }
+            img:nth-child(5) { animation-delay: 40s; }
 
 
             @keyframes fade {
