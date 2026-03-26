@@ -17,7 +17,7 @@
         "name": "going south CO",
         "picture": "loader.gif",
         "coordinates": [-2459, 3559],
-        "description": "i/ we, if there ever were anyone else, take care of the southern railroads for fun",
+        "description": "a railroad. Constantly built. Only goes south and back. Until the end.",
         "discord": "freaky juustoleipa",
         "minecraft": "menihermoihin",
         "import": "none",
@@ -39,6 +39,19 @@
         "locpic": "",
         "chain": "K.P industries"
 
+    },
+        {
+        "name": "Meni's slaves .inc",
+        "picture": "menislaves.png",
+        "coordinates": [-2459, 3559],
+        "description": "Selling slave villagers for cheap, plenty to choose from, unemployed, masters, librarians, anything. 'Dad, Dad! Can we go to meni's slaves pleaaase?'",
+        "discord": "freaky juustoleipa",
+        "minecraft": "menihermoihin",
+        "import": "none",
+        "export": "slaves",
+        "businesstype": "slavery",
+        "locpic": "finlocation.png",
+        "chain": "findustries"
     }
 ]
 
