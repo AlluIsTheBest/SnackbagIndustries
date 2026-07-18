@@ -1,57 +1,69 @@
 [
-    {
-        "name": "arcane railworks CO",
-        "picture": "screenie.jpg",
-        "coordinates": [-200, -2700],
-        "description": "building tracks for heavy trains and long voyages",
-        "discord": "fb underswap",
-        "minecraft": "astolfouwu",
-        "import": "none",
-        "export": "train tracks",
-        "businesstype": "transportation",
-        "locpic": "",
-        "chain": "arciron industries"
-
-    },
-    {
-        "name": "going south CO",
-        "picture": "loader.gif",
-        "coordinates": [-2459, 3559],
-        "description": "a railroad. Constantly built. Only goes south and back. Until the end.",
-        "discord": "freaky juustoleipa",
-        "minecraft": "menihermoihin",
-        "import": "none",
-        "export": "rail road",
-        "businesstype": "transportation",
-        "locpic": "finlocation.png",
-        "chain": "findustries"
-    },
-    {
-        "name": "K.P industries",
-        "picture": "Kit.jpeg",
-        "coordinates": "Kit mountain located in old Krunkeria",
-        "description": "The parent Company of the S1-2 Chocolate Company and owner of other Kit owned businesses ",
-        "discord": "Kitsuneguara",
-        "minecraft": "Kitsuneguara",
-        "import": "none",
-        "export": "none",
-        "businesstype": "everything?",
-        "locpic": "",
-        "chain": "K.P industries"
-
-    },
-        {
-        "name": "Meni's slaves .inc",
-        "picture": "menislaves.png",
-        "coordinates": [-2459, 3559],
-        "description": "Selling slave villagers for cheap, plenty to choose from, unemployed, masters, librarians, anything. 'Dad, Dad! Can we go to meni's slaves pleaaase?'",
-        "discord": "freaky juustoleipa",
-        "minecraft": "menihermoihin",
-        "import": "none",
-        "export": "slaves",
-        "businesstype": "slavery",
-        "locpic": "finlocation.png",
-        "chain": "findustries"
-    }
+  {
+    "name": "arcane railworks CO",
+    "picture": "screenie.jpg",
+    "coordinates": [
+      -200,
+      -2700
+    ],
+    "description": "building tracks for heavy trains and long voyages",
+    "discord": "fb underswap",
+    "minecraft": "astolfouwu",
+    "import": "none",
+    "export": "train tracks",
+    "businesstype": "transportation",
+    "locpic": "",
+    "chain": "arciron industries"
+  },
+  {
+    "name": "going south CO",
+    "picture": "loader.gif",
+    "coordinates": [
+      -2459,
+      3559
+    ],
+    "description": "a railroad. Constantly built. Only goes south and back. Until the end.",
+    "discord": "freaky juustoleipa",
+    "minecraft": "menihermoihin",
+    "import": "none",
+    "export": "rail road",
+    "businesstype": "transportation",
+    "locpic": "finlocation.png",
+    "chain": "findustries"
+  },
+  {
+    "name": "K.P industries",
+    "picture": "Kit.jpeg",
+    "coordinates": "Kit mountain located in old Krunkeria",
+    "description": "The parent Company of the S1-2 Chocolate Company and owner of other Kit owned businesses ",
+    "discord": "Kitsuneguara",
+    "minecraft": "Kitsuneguara",
+    "import": "none",
+    "export": "none",
+    "businesstype": "everything?",
+    "locpic": "",
+    "chain": "K.P industries"
+  },
+  {
+    "name": "Meni's slaves .inc",
+    "picture": "menislaves.png",
+    "coordinates": [
+      -2459,
+      3559
+    ],
+    "description": "Selling slave villagers for cheap, plenty to choose from, unemployed, masters, librarians, anything. 'Dad, Dad! Can we go to meni's slaves pleaaase?'",
+    "discord": "freaky juustoleipa",
+    "minecraft": "menihermoihin",
+    "import": "none",
+    "export": "slaves",
+    "businesstype": "slavery",
+    "locpic": "finlocation.png",
+    "chain": "findustries"
+  },
+  {
+    "timestamp": "19.7.2026 klo 0.28.56",
+    "owner": "glizzymaster69",
+    "companyName": "gmaster69",
+    "description": "Manufacturing & Processing"
+  }
 ]
-
