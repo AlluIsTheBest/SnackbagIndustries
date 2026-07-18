@@ -71,5 +71,19 @@
     "owner": "glizz",
     "companyName": "glazz",
     "description": "Farming & Agriculture"
+  },
+  {
+    "discord": "glizza",
+    "minecraft": "glizza",
+    "businesstype": "Transportation",
+    "import": "trains",
+    "export": "cocaine and marijuana",
+    "description": "coke and weed is all you need",
+    "name": "glizzys coke n weed",
+    "chain": "fishy fishules",
+    "coordinates": [
+      "69",
+      "?1230123"
+    ]
   }
 ]
