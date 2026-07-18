@@ -18,6 +18,7 @@ fetch("companies.json")
             texdiv = document.createElement("div")
             texdiv.classList.add("textdiv")
             newbtn = document.createElement("button")
+            newbtn.style.background = 'transparent'
 
             newbtn.addEventListener("click", () =>{
                 localStorage.setItem("current", JSON.stringify(element))
