@@ -18,7 +18,6 @@ fetch("companies.json")
             texdiv = document.createElement("div")
             texdiv.classList.add("textdiv")
             newbtn = document.createElement("button")
-            newbtn.classList.add("transparent")
 
             newbtn.addEventListener("click", () =>{
                 localStorage.setItem("current", JSON.stringify(element))
@@ -27,14 +26,14 @@ fetch("companies.json")
             
             
 
-            newimg.src = element["picture"]
+            //newimg.src = element["picture"]
             areaaa.appendChild(newelement)
             newelement.appendChild(newbtn)
-            newbtn.appendChild(newimg)
+            newbtn.appendChild(texdiv)
             texdiv.appendChild(newtitle)
             texdiv.appendChild(newownertitle)
             texdiv.appendChild(newtext)
-            newelement.appendChild(texdiv)
+            //newelement.appendChild(texdiv)
             newtitle.innerHTML = element["name"]
             newownertitle.innerHTML = element["minecraft"]
             newtext.innerHTML = element["description"]
